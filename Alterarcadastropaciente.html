@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultas Paciente</title>
-</head>
-<body>
-    <fieldset>
-    <img src="../Logo.png"> <br> 
-    <br>
-    <button> Alteração Cadastro Paciente</button> <br>
-    <br>
-    Nome e Sobrenome <br>
-    <input type="Nome-e-sobrenome" name="Nome-e-sobrenome" ><br>
-    Telefone <br>
-    <input type="Telefone" name="Telefone" > <br>
-    CPF e RG <br>
-    <input type="CPF-e-RG" name="CPF-e-RG" ><br>
-    Telefone de Recado <br>
-    <input type="Telefone-de-recado" name="Telefone-de-recado" ><br>
-    Email <br>
-    <input type="Email" name="Email" > <br>
-    <br>    <br>
-    <button> Confirmar </button> <br>
-</fieldset>
-</body>
+    <title>Alteração de Cadastro - Clínica Médica</title>
+    <link rel="stylesheet" href="./css/Alterarcadastropaciente.css">
+  </head>
+  <body>
+    <!-- cabeçalho -->
+    <header>
+      <div class="logo">
+        <img src="./images/Logo.png" alt="Logo da clínica médica">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar">
+        <button class="buscar">Buscar</button>
+      </div>
+    </header>
+    
+    <!-- conteúdo principal -->
+    <main>
+      <h1>Alteração de Cadastro</h1>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+        
+        <button class="btn-salvar">Salvar alterações</button>
+      </form>
+    </main>
+    
+    <!-- rodapé -->
+    <footer>
+        <div class="footer-icons">
+          <img src="./images/facebook.svg" alt="">
+          <img src="./images/instagram.svg" alt="">
+          <img src="./images/whatsapp.svg" alt="">
+        </div>
+        <div class="footer-text">
+          <p>Clínica Médica &copy; 2023. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+  </body>
 </html>

@@ -1,29 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Inicio Paciente</title>
-    <link rel="stylesheet" href="./css/InicioMedico.css">
-</head>
-<body>
-    <img id="imagem-logo" src="./img/Logo.png">
-    
-    
-    <fieldset class="stile-principal-butom">Exames e Horarios</fieldset><br><br>
-    <div>
-        
-        <fieldset class="style-butom"> Mamografia </fieldset> <br>
-        <fieldset class="style-butom"> Us Orgaos Superficiais(Tiroide,Escroto ou Cranio)</fieldset> <br>
-        <fieldset class="style-butom"> Raio-X Torax </fieldset> <br>
-        <fieldset class="style-butom"> Extração De Ciso </fieldset> <br>
-    </div>
-    
-    <footer class="rodape">
-        <a href="#" class="butom-endereço"><img src="./img/Localização.png"></a>
-    </footer>
+<html>
+  <head>
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" type="text/css" href="./css/InicioMedico.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/Logo.png" alt="Logo da Clínica Médica">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar">
+        <button type="submit">Buscar</button>
+      </div>
+    </header>
+    <main>
+      <div class="option">
+        <h2>Consultas</h2>
+        <div class="dropdown">
+          <button class="dropbtn">Minhas Consultas</button>
+          <div class="dropdown-content">
+            <a href="#">Marcar</a>
+            <a href="#">Consultas marcadas</a>
+            <a href="#">Desmarcar</a>
+          </div>
+        </div>
+      </div>
+      <div class="option">
+        <h2>Exames</h2>
+        <div class="dropdown">
+          <button class="dropbtn">Meus Exames</button>
+          <div class="dropdown-content">
+            <a href="#">Raio-X</a>
+            <a href="#">Mamografia</a>
+            <a href="#">Meus Exames</a>
+          </div>
+        </div>
+      </div>
+      <div class="option">
+        <h2>A Clínica</h2>
+        <div class="dropdown">
+          <button class="dropbtn">Nossa Clínica</button>
+          <div class="dropdown-content">
+            <a href="#">Endereço</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Nossos Profissionais</a>
+          </div>
+        </div>
+      </div>
+      <div class="option">
+        <h2>Editar Cadastro</h2>
+        <div class="dropdown">
+          <button class="dropbtn">Meu Cadastro</button>
+          <div class="dropdown-content">
+            <a href="#">Meu perfil</a>
+            <a href="#">Atualizar dados</a>
+            <a href="#">Planos</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-icons">
+        <img src="./images/facebook.svg" alt="">
+        <img src="./images/instagram.svg" alt="">
+        <img src="./images/whatsapp.svg" alt="">
+      </div>
+      <div class="footer-text">
+        <p>Clínica Médica &copy; 2023. Todos os direitos reservados.</p>
+      </div>
 
-</body>
+    </footer>
+  </body>
 </html>

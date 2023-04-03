@@ -1,0 +1,127 @@
+/* estilo global */
+body {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* estilo do cabeçalho */
+  header {
+    background-color: #97DBFF; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 400px;
+  }
+  
+  .search-bar button {
+    background-color: #ffffff; 
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 600ms all;
+  }
+
+  .search-bar button:hover {
+    background-color: #46ade5;
+    transform: scale(1.1);
+  }
+  
+  /* estilo do conteúdo principal */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  .option {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #cccccc;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .option h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .dropbtn {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 0px 5px #cccccc;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #97DBFF;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* estilo do rodapé */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #97DBFF; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 10px 10px;
+    font-size: 14px;
+    color: #ffffff; 
+  }
+  

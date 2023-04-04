@@ -71,7 +71,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     letter-spacing: 6px;
     
   }
@@ -79,5 +79,10 @@ body {
   button:hover {
     background-color: #3da4dc; 
     color: #ffffff;
+  }
+
+  span{
+    color: #3da4dc;
+    cursor: pointer;
   }
   

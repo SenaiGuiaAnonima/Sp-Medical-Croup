@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* estilo global */
 body {
   background-color: #ffffff; 
@@ -84,6 +90,7 @@ header {
     background-color: #4fb0e4;
     color: #fff;
   } 
+  
   
   /* Estilos do rodapé */
   footer {

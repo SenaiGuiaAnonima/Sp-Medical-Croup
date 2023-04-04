@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* estilo global */
 body {
     background-color: #ffffff; 
@@ -8,39 +14,38 @@ body {
   
   /* estilo do cabeçalho */
   header {
-    background-color: #97DBFF; 
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color:  #97DBFF;
+  }
+  
+  .logo {
+    width: 100px;
   }
   
   .logo img {
-    height: 50px;
-    cursor: pointer;
+    width: 100%;
+    height: auto;
   }
   
-  .search-bar input[type="text"] {
-    padding: 10px;
-    border-radius: 5px;
+  .login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
     border: none;
-    margin-right: 10px;
-    width: 400px;
-  }
-  
-  .search-bar button {
-    background-color: #ffffff; 
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
+    background-color: #fff;
+    color:  #97DBFF;
     cursor: pointer;
-    transition: 600ms all;
+    border-radius: 5px;
   }
 
-  .search-bar button:hover {
-    background-color: #46ade5;
-    transform: scale(1.1);
+  .login-btn:hover{
+    background-color: #49a0cf;
+    color: #fff;
   }
+  
 
     /* estilo do main */
   .banner{
